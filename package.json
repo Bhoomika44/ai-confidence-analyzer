@@ -1,0 +1,12 @@
+{
+  "name": "ai-confidence-analyzer-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "node -e \"const { spawn } = require('child_process'); spawn('npm', ['run', 'dev:backend'], { stdio: 'inherit', shell: true }); spawn('npm', ['run', 'dev:frontend'], { stdio: 'inherit', shell: true });\"",
+    "start": "npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install && cd .. && python -m pip install -r ai_engine/requirements.txt"
+  }
+}

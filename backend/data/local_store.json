@@ -1,0 +1,152 @@
+{
+  "users": [
+    {
+      "_id": "0cd8e8ab-2975-4d27-bc86-a38deb39c7eb",
+      "createdAt": "2026-09-11T14:26:01.543Z",
+      "updatedAt": "2026-09-11T14:26:01.543Z",
+      "name": "Presentation Tester",
+      "email": "tester_1789136761330@example.com",
+      "password": "$2a$10$tMzoFo.NbRzbiGqpJ3nIv.AZBJT7THwkSDs7kprhYKn5Xg2cMJnLu"
+    },
+    {
+      "_id": "53de5023-8694-4a88-afed-05eaf234b7f4",
+      "createdAt": "2026-09-11T14:54:29.511Z",
+      "updatedAt": "2026-09-16T01:20:48.645Z",
+      "name": "Bhoomika N",
+      "email": "n.bhoomika565@gmail.com",
+      "password": "$2a$10$GnG42pvJ6iyjHP4fTH/39O/lGjCc9zfTWd54gp09rP/RY3lHqqRl2",
+      "resetCode": null,
+      "resetCodeExpires": null
+    },
+    {
+      "_id": "4281866d-5a2f-436d-b053-e9b600987495",
+      "createdAt": "2026-09-12T05:19:27.972Z",
+      "updatedAt": "2026-09-12T05:19:27.972Z",
+      "name": "Bhoomika N",
+      "email": "bhoomikan651@gmail.com",
+      "password": "$2a$10$g72mJpOrTEDV23ScQCOVCePYyAO9xkggLZ33JOP2HVhd2YUx61koa"
+    },
+    {
+      "_id": "acb4e2e9-f902-4f0f-a56c-4178ffef4885",
+      "createdAt": "2026-09-12T09:06:07.166Z",
+      "updatedAt": "2026-09-12T09:06:07.166Z",
+      "name": "Bhoomika",
+      "email": "hahahahahahhihihihi38@gmail.com",
+      "password": "$2a$10$3to74y1hSXyyAPUe557d9umDKqJ8xxFf318K1qJaG1G66f1RrmdB."
+    },
+    {
+      "_id": "dae1ac4e-d12f-4cf3-a4bd-b74ccd659dae",
+      "createdAt": "2026-09-15T13:22:48.896Z",
+      "updatedAt": "2026-09-15T13:24:57.120Z",
+      "name": "sandya",
+      "email": "testnew2026@example.com",
+      "password": "$2a$10$U4/Abck2fUwsMu3WV5H1UOyXSkhynfmXk8N0906Odef1wrkVCX8xO",
+      "resetCode": "9779",
+      "resetCodeExpires": "2026-09-15T13:39:57.119Z"
+    }
+  ],
+  "presentations": [
+    {
+      "_id": "fff03b30-0297-412d-bbb4-e542298487fe",
+      "createdAt": "2026-09-16T06:55:11.657Z",
+      "updatedAt": "2026-09-16T06:55:19.041Z",
+      "userId": "demo-user",
+      "title": "Rehearsal — 12:25 pm",
+      "inputType": "recording",
+      "videoPath": "C:\\Users\\Bhoomika\\OneDrive\\Desktop\\Ai_confidence_analyzer\\backend\\uploads\\presentation-1789541711591-239256514.webm",
+      "duration": 0,
+      "processingStatus": "completed",
+      "processingStep": "No speech detected",
+      "processingProgress": 100,
+      "overallScore": null,
+      "performanceLevel": "Analysis Failed"
+    },
+    {
+      "_id": "dc0c57d2-3320-4b45-a5d6-b44e9cd7ce74",
+      "createdAt": "2026-09-16T06:55:59.733Z",
+      "updatedAt": "2026-09-16T06:56:07.870Z",
+      "userId": "demo-user",
+      "title": "Rehearsal — 12:25 pm",
+      "inputType": "recording",
+      "videoPath": "C:\\Users\\Bhoomika\\OneDrive\\Desktop\\Ai_confidence_analyzer\\backend\\uploads\\presentation-1789541759693-635134106.webm",
+      "duration": 0,
+      "processingStatus": "completed",
+      "processingStep": "No speech detected",
+      "processingProgress": 100,
+      "overallScore": null,
+      "performanceLevel": "Analysis Failed"
+    }
+  ],
+  "analysisResults": [
+    {
+      "_id": "e57ea798-8a7a-45cf-8e2c-6886e8f2b1c6",
+      "createdAt": "2026-09-16T06:55:19.037Z",
+      "updatedAt": "2026-09-16T06:55:19.037Z",
+      "presentationId": "fff03b30-0297-412d-bbb4-e542298487fe",
+      "overallScore": null,
+      "performanceLevel": "Analysis Failed",
+      "badge": "Try Again",
+      "scoreLabel": "Score Unavailable",
+      "disclaimer": "The presentation could not be analyzed.",
+      "speechDetected": false,
+      "eyeContact": null,
+      "facialExpression": null,
+      "headPosition": null,
+      "posture": null,
+      "handGestures": null,
+      "bodyMovement": null,
+      "voice": null,
+      "speakingSpeed": null,
+      "pauseScore": null,
+      "fillerWordScore": null,
+      "wpm": null,
+      "pauseCount": null,
+      "longPauseCount": null,
+      "fillerWordCount": null,
+      "eyeContactPercentage": null,
+      "visualMetrics": {},
+      "audioMetrics": {},
+      "strengths": [],
+      "weaknesses": [
+        "'HandGestureAnalyzer' object has no attribute 'get_summary'"
+      ],
+      "timeline": []
+    },
+    {
+      "_id": "52843cb5-d9e0-47ab-85b2-4b9b58b449e9",
+      "createdAt": "2026-09-16T06:56:07.865Z",
+      "updatedAt": "2026-09-16T06:56:07.865Z",
+      "presentationId": "dc0c57d2-3320-4b45-a5d6-b44e9cd7ce74",
+      "overallScore": null,
+      "performanceLevel": "Analysis Failed",
+      "badge": "Try Again",
+      "scoreLabel": "Score Unavailable",
+      "disclaimer": "The presentation could not be analyzed.",
+      "speechDetected": false,
+      "eyeContact": null,
+      "facialExpression": null,
+      "headPosition": null,
+      "posture": null,
+      "handGestures": null,
+      "bodyMovement": null,
+      "voice": null,
+      "speakingSpeed": null,
+      "pauseScore": null,
+      "fillerWordScore": null,
+      "wpm": null,
+      "pauseCount": null,
+      "longPauseCount": null,
+      "fillerWordCount": null,
+      "eyeContactPercentage": null,
+      "visualMetrics": {},
+      "audioMetrics": {},
+      "strengths": [],
+      "weaknesses": [
+        "'HandGestureAnalyzer' object has no attribute 'get_summary'"
+      ],
+      "timeline": []
+    }
+  ],
+  "weakSections": [],
+  "practiceAttempts": []
+}
