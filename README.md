@@ -191,3 +191,5 @@ Open your browser at: **`http://localhost:3000`**
 - **Instant Webcam Practice Studio**: Embedded recording studio specifically for 30-second weak section repair.
 - **WebSocket Streaming**: Live visual feedback steps during video analysis.
 - **Side-by-Side Progression**: Proves that coaching and targeted rehearsal actually work.
+#   A i _ C o n f i d e n c e _ A n a l y z e r  
+ 
